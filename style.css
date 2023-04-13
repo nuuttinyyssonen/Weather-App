@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background: linear-gradient(259deg, rgb(150, 192, 255) -17.7%, rgb(255, 180, 161) 101.5%);
+}
+
+.container {
+    display: block;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 670px;
+    margin-right: 500px;
+    border-radius: 30px;
+    background-image: url("https://i.ibb.co/0G1mfVf/Mountains-horizon-castle-sunset-art-1080x2160-wallpaper.jpg");
+    background-size: 630px 900px;
+    height: 820px;
+    width: 550px;
+    box-shadow: 0px 0px 20px 1px rgba(153,153,153,1);
+}
+
+.header {
+    text-align: center;
+}
+
+#search {
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 15px;
+    width: 300px;
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    font-size: 25px;
+}
+
+#search:hover {
+    transform: translate(-1px, -2px);
+}
+
+.btn {
+    padding: 15px;
+    padding-right: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    border: none;
+    opacity: 0.4;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-favorite {
+    opacity: 0.4;
+    border: none;
+    padding: 22px;
+    font-size: 22px;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-dropdown {
+    padding: 30px;
+    opacity: 0.4;
+    border: none;
+    margin-left: 40px;
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.head {
+    display: flex;
+}
+
+.btn-favorite:hover {
+    transform: translate(-1px, -2px);
+}
+
+.btn-dropdown:hover {
+    transform: translate(-1px, -2px);
+}
+
+.btn:hover {
+    transform: translate(-1px, -2px);
+  }
+
+::placeholder {
+    font-size: 25px;
+}
+
+.text {
+   margin-left: 0 auto;
+   margin-right: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#weekday {
+    margin-top: 320px;
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+
+.time {
+    display: inline-block;
+    margin-left: 86px;
+    position: relative;
+    bottom: 33px;
+    right: 32px;
+    font-size: 20px;
+}
+
+.tempOfHours {
+    display: inline-block;
+    margin-left: 72px;
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+    bottom: 15px;
+}
+
+.icons {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    margin-left: 50px;
+}
+
+.twelve {
+    right: 25px;
+}
+
+.fifteen {
+    right: 20px;
+}
+
+.eighteen {
+    right: 15px;
+}
+
+.twentyOne {
+    right: 10px;
+}
+
+.dropdown #dropdown-content {
+    display: none;
+}
+
+#dropdown-content {
+    position: absolute;
+    display: flex;
+}
+
+.dropdown p {
+    display: block;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    background: rgba(255,255,255, 0.4);
+    color: black;
+    position: relative;
+    width: 100%;
+    right: 45px;
+    border-radius: 10px;
+}
+
+.delete-note {
+    position: relative;
+    bottom: 54px;
+    left: 72px;
+    border: none;
+    opacity: 0.4;
+    border-radius: 10px;
+    padding: 10px;
+}
